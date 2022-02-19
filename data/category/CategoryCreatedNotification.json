@@ -1,0 +1,17 @@
+{
+  "notificationType": "ResourceCreated",
+  "projectKey": "FooProject",
+  "resource": {
+    "typeId": "category",
+    "id": "1db19c31-2b5f-49da-b8b2-489b5b01a419"
+  },
+  "resourceUserProvidedIdentifiers": {
+    "externalId": "18e99ce5-94f3-4791-9124-222eb9dde0f0",
+    "slug": {
+      "en": "foo",
+      "de": "foo"
+    }
+  },
+  "version": 1,
+  "modifiedAt": "2022-02-19T18:18:41.600Z"
+}

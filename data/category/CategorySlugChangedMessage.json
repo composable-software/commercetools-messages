@@ -1,0 +1,30 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "d58f7d5b-a12e-49ef-b007-0cbb420331c2",
+  "version": 1,
+  "sequenceNumber": 2,
+  "resource": {
+    "typeId": "category",
+    "id": "1db19c31-2b5f-49da-b8b2-489b5b01a419"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+    "externalId": "18e99ce5-94f3-4791-9124-222eb9dde0f0",
+    "slug": {
+      "en": "bar",
+      "de": "foo"
+    }
+  },
+  "type": "CategorySlugChanged",
+  "slug": {
+    "en": "bar",
+    "de": "foo"
+  },
+  "oldSlug": {
+    "en": "foo",
+    "de": "foo"
+  },
+  "createdAt": "2022-02-19T18:23:21.234Z",
+  "lastModifiedAt": "2022-02-19T18:23:21.234Z"
+}

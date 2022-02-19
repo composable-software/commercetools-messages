@@ -1,0 +1,63 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "e8c5ab88-ad0d-4e95-b125-20cab0f9da1e",
+  "version": 1,
+  "sequenceNumber": 1,
+  "resource": {
+    "typeId": "category",
+    "id": "1db19c31-2b5f-49da-b8b2-489b5b01a419"
+  },
+  "resourceVersion": 1,
+  "resourceUserProvidedIdentifiers": {
+    "externalId": "18e99ce5-94f3-4791-9124-222eb9dde0f0",
+    "slug": {
+      "en": "foo",
+      "de": "foo"
+    }
+  },
+  "type": "CategoryCreated",
+  "category": {
+    "id": "1db19c31-2b5f-49da-b8b2-489b5b01a419",
+    "version": 1,
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2022-02-19T18:18:41.600Z",
+    "lastModifiedAt": "2022-02-19T18:18:41.600Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+        "typeId": "user",
+        "id": "80e1d403-8e72-442f-a9cc-e8b3f5db6b0d"
+      }
+    },
+    "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+        "typeId": "user",
+        "id": "80e1d403-8e72-442f-a9cc-e8b3f5db6b0d"
+      }
+    },
+    "name": {
+      "en": "Foo",
+      "de": "Foo"
+    },
+    "slug": {
+      "en": "foo",
+      "de": "foo"
+    },
+    "ancestors": [],
+    "orderHint": "0.08",
+    "externalId": "18e99ce5-94f3-4791-9124-222eb9dde0f0",
+    "metaTitle": {
+      "en": "Foo Title",
+      "de": "Foo Title"
+    },
+    "metaDescription": {
+      "en": "Foo Description",
+      "de": "Foo Description"
+    },
+    "assets": []
+  },
+  "createdAt": "2022-02-19T18:18:41.600Z",
+  "lastModifiedAt": "2022-02-19T18:18:41.600Z"
+}

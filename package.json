@@ -7,6 +7,7 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
+    "prepare": "husky install",
     "prebuild": "rimraf lib",
     "build": "tsc",
     "lint": "eslint . --ext .ts",
@@ -23,6 +24,7 @@
     "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
+    "husky": "^7.0.4",
     "jest": "^27.5.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.1.3",

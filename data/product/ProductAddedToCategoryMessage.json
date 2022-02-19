@@ -1,0 +1,26 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "b7fb3f1a-99bd-4254-b3e9-bd408a7d3e7a",
+  "version": 1,
+  "sequenceNumber": 12,
+  "resource": {
+    "typeId": "product",
+    "id": "0194423e-7cc8-46fb-b81d-af4882c85a83"
+  },
+  "resourceVersion": 19,
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "Foo"
+    }
+  },
+  "type": "ProductAddedToCategory",
+  "category": {
+    "typeId": "category",
+    "id": "2cba3d95-249a-4488-97d0-0f8e53c57ae2"
+  },
+  "staged": true,
+  "createdAt": "2022-02-19T17:51:41.714Z",
+  "lastModifiedAt": "2022-02-19T17:51:41.714Z"
+}

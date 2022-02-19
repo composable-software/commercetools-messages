@@ -1,0 +1,21 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "ab694c3b-755b-46d2-901f-ac078ac6ae26",
+  "version": 1,
+  "sequenceNumber": 3,
+  "resource": {
+    "typeId": "product",
+    "id": "0194423e-7cc8-46fb-b81d-af4882c85a83"
+  },
+  "resourceVersion": 3,
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "foo"
+    }
+  },
+  "type": "ProductUnpublished",
+  "createdAt": "2022-02-19T15:24:48.448Z",
+  "lastModifiedAt": "2022-02-19T15:24:48.448Z"
+}

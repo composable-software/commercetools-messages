@@ -1,0 +1,61 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "3a0e9d69-89c3-4609-ab90-b680e02b52e2",
+  "version": 1,
+  "sequenceNumber": 10,
+  "resource": {
+    "typeId": "product",
+    "id": "0194423e-7cc8-46fb-b81d-af4882c85a83"
+  },
+  "resourceVersion": 17,
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "foo"
+    }
+  },
+  "type": "ProductVariantAdded",
+  "variant": {
+    "id": 2,
+    "sku": "ttt",
+    "key": "123",
+    "prices": [],
+    "images": [],
+    "attributes": [
+      {
+        "name": "designer",
+        "value": {
+          "key": "fefe",
+          "label": "Fefè"
+        }
+      },
+      {
+        "name": "madeInItaly",
+        "value": {
+          "key": "yes",
+          "label": "yes"
+        }
+      },
+      {
+        "name": "gender",
+        "value": {
+          "key": "men",
+          "label": "Herren"
+        }
+      },
+      {
+        "name": "creationDate",
+        "value": "2022-02-01T00:00:00.000Z"
+      },
+      {
+        "name": "baseId",
+        "value": "133123"
+      }
+    ],
+    "assets": []
+  },
+  "staged": true,
+  "createdAt": "2022-02-19T17:48:06.487Z",
+  "lastModifiedAt": "2022-02-19T17:48:06.487Z"
+}

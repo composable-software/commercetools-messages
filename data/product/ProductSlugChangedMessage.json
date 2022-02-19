@@ -1,0 +1,27 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "866261d6-c1a2-40a4-b85c-47b28643e73c",
+  "version": 1,
+  "sequenceNumber": 7,
+  "resource": {
+    "typeId": "product",
+    "id": "0194423e-7cc8-46fb-b81d-af4882c85a83"
+  },
+  "resourceVersion": 7,
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "foo"
+    }
+  },
+  "type": "ProductSlugChanged",
+  "slug": {
+    "en": "foo"
+  },
+  "oldSlug": {
+    "en": "foo"
+  },
+  "createdAt": "2022-02-19T15:37:04.432Z",
+  "lastModifiedAt": "2022-02-19T15:37:04.432Z"
+}

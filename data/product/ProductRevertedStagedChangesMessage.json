@@ -1,0 +1,24 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "59ff559b-6e12-4f0c-a203-4511d699b71b",
+  "version": 1,
+  "sequenceNumber": 9,
+  "resource": {
+    "typeId": "product",
+    "id": "0194423e-7cc8-46fb-b81d-af4882c85a83"
+  },
+  "resourceVersion": 12,
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "foo"
+    }
+  },
+  "type": "ProductRevertedStagedChanges",
+  "removedImageUrls": [
+    "https://example.com/foo.jpeg"
+  ],
+  "createdAt": "2022-02-19T17:24:45.012Z",
+  "lastModifiedAt": "2022-02-19T17:24:45.012Z"
+}

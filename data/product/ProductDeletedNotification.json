@@ -1,0 +1,16 @@
+{
+  "notificationType": "ResourceDeleted",
+  "projectKey": "FooProject",
+  "resource": {
+    "typeId": "product",
+    "id": "3a9a49a3-a5a5-4afe-99c7-8cb47bce6d13"
+  },
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "foo"
+    }
+  },
+  "version": 1,
+  "modifiedAt": "2022-02-19T17:55:08.906Z"
+}

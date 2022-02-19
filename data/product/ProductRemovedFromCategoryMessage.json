@@ -1,0 +1,26 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "2f8365f0-7d49-475c-b991-61269f4251cc",
+  "version": 1,
+  "sequenceNumber": 13,
+  "resource": {
+    "typeId": "product",
+    "id": "0194423e-7cc8-46fb-b81d-af4882c85a83"
+  },
+  "resourceVersion": 20,
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "foo"
+    }
+  },
+  "type": "ProductRemovedFromCategory",
+  "category": {
+    "typeId": "category",
+    "id": "2cba3d95-249a-4488-97d0-0f8e53c57ae2"
+  },
+  "staged": true,
+  "createdAt": "2022-02-19T17:53:48.075Z",
+  "lastModifiedAt": "2022-02-19T17:53:48.075Z"
+}

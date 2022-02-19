@@ -1,0 +1,87 @@
+{
+  "notificationType": "Message",
+  "projectKey": "FooProject",
+  "id": "5452b601-42a3-4f50-ac24-becc822fd84f",
+  "version": 1,
+  "sequenceNumber": 2,
+  "resource": {
+    "typeId": "product",
+    "id": "3a9a49a3-a5a5-4afe-99c7-8cb47bce6d13"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+    "key": "foo",
+    "slug": {
+      "en": "foo"
+    }
+  },
+  "type": "ProductDeleted",
+  "removedImageUrls": [],
+  "currentProjection": {
+    "id": "3a9a49a3-a5a5-4afe-99c7-8cb47bce6d13",
+    "version": 1,
+    "productType": {
+      "typeId": "product-type",
+      "id": "157361a0-b34e-4e3d-b08a-4d7fdd99ad61"
+    },
+    "name": {
+      "en": "FooBar"
+    },
+    "categories": [],
+    "categoryOrderHints": {},
+    "slug": {
+      "en": "foo-bar"
+    },
+    "metaTitle": {
+      "en": "",
+      "de": ""
+    },
+    "metaDescription": {
+      "en": "",
+      "de": ""
+    },
+    "masterVariant": {
+      "id": 1,
+      "prices": [],
+      "images": [],
+      "attributes": [
+        {
+          "name": "designer",
+          "value": {
+            "key": "7forallmankind",
+            "label": "7 for all mankind"
+          }
+        },
+        {
+          "name": "madeInItaly",
+          "value": {
+            "key": "yes",
+            "label": "yes"
+          }
+        },
+        {
+          "name": "creationDate",
+          "value": "2022-02-08T00:00:00.000Z"
+        },
+        {
+          "name": "baseId",
+          "value": "1235"
+        }
+      ],
+      "assets": []
+    },
+    "variants": [],
+    "searchKeywords": {},
+    "hasStagedChanges": false,
+    "published": false,
+    "key": "foo",
+    "taxCategory": {
+      "typeId": "tax-category",
+      "id": "1fe58c0b-dd7c-4828-838e-f800466ab873"
+    },
+    "createdAt": "2022-02-19T15:15:29.224Z",
+    "lastModifiedAt": "2022-02-19T15:15:29.224Z"
+  },
+  "createdAt": "2022-02-19T17:55:08.906Z",
+  "lastModifiedAt": "2022-02-19T17:55:08.906Z"
+}

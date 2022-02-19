@@ -1,0 +1,54 @@
+env:
+  es6: true
+  node: true
+  jest: true
+
+extends:
+  - 'standard'
+  - 'eslint:recommended'
+  - 'plugin:@typescript-eslint/eslint-recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  
+ignorePatterns:
+  - 'lib'
+  - 'node_modules'
+
+plugins:
+  - '@typescript-eslint'
+  - '@typescript-eslint/eslint-plugin'
+  - 'jest'
+
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+
+rules:
+  '@typescript-eslint/member-delimiter-style': [ error, { multiline: { delimiter: none } } ]
+  '@typescript-eslint/explicit-function-return-type': off
+  '@typescript-eslint/no-non-null-assertion': off
+  '@typescript-eslint/no-misused-promises': off
+  '@typescript-eslint/require-await': off
+  '@typescript-eslint/no-unsafe-call': off
+  '@typescript-eslint/no-unsafe-assignment': off
+  padded-blocks: 0
+  operator-linebreak: [ error, before ]
+  comma-dangle: [ error, always-multiline ]
+  key-spacing: [ error, { align: value } ]
+  no-multi-spaces: 0
+  camelcase: 0
+  array-callback-return: 0
+  space-before-function-paren: 0
+  no-useless-constructor: 0
+  no-void: 0
+  indent: off
+
+overrides:
+  - files: [ '**/test/**' ]
+    rules:
+      '@typescript-eslint/no-explicit-any': off
+      '@typescript-eslint/no-unsafe-assignment': off
+      '@typescript-eslint/no-unsafe-call': off
+      '@typescript-eslint/unbound-method': off
+      '@typescript-eslint/no-unsafe-return': off
+

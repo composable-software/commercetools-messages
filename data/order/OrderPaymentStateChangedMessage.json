@@ -1,0 +1,19 @@
+{
+  "notificationType": "Message",
+  "projectKey": "Foo",
+  "id": "a6ade0cb-ed4f-4fd4-92c0-9672aac13343",
+  "version": 1,
+  "sequenceNumber": 2,
+  "resource": {
+    "typeId": "order",
+    "id": "fd5e29b6-9e31-4cd4-b386-109669736e91"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+    "orderNumber": "400"
+  },
+  "type": "OrderPaymentStateChanged",
+  "paymentState": "Pending",
+  "createdAt": "2022-02-20T20:11:45.608Z",
+  "lastModifiedAt": "2022-02-20T20:11:45.608Z"
+}

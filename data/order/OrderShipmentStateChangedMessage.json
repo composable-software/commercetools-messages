@@ -1,0 +1,20 @@
+{
+  "notificationType": "Message",
+  "projectKey": "Foo",
+  "id": "95e1cf94-2bc6-419c-9ef6-2eb0c6b26fe6",
+  "version": 1,
+  "sequenceNumber": 5,
+  "resource": {
+    "typeId": "order",
+    "id": "fd5e29b6-9e31-4cd4-b386-109669736e91"
+  },
+  "resourceVersion": 6,
+  "resourceUserProvidedIdentifiers": {
+    "orderNumber": "400"
+  },
+  "type": "OrderShipmentStateChanged",
+  "shipmentState": "Partial",
+  "oldShipmentState": "Delayed",
+  "createdAt": "2022-02-20T20:12:16.308Z",
+  "lastModifiedAt": "2022-02-20T20:12:16.308Z"
+}

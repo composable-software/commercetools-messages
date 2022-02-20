@@ -1,0 +1,29 @@
+{
+  "notificationType": "Message",
+  "projectKey": "Foo",
+  "id": "b2a33b3b-d63d-483c-b200-794507374e2b",
+  "version": 1,
+  "sequenceNumber": 2,
+  "resource": {
+    "typeId": "order",
+    "id": "8b8a912b-47ef-4cb9-9649-a2164429c37b"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+    "orderNumber": "402"
+  },
+  "type": "LineItemStateTransition",
+  "lineItemId": "e270c446-b929-4227-86e2-b3f2ce6d32df",
+  "transitionDate": "2022-02-20T20:54:48.217Z",
+  "quantity": 1,
+  "fromState": {
+    "typeId": "state",
+    "id": "91e74741-9b2e-48c1-b0da-a91a3ad2184f"
+  },
+  "toState": {
+    "typeId": "state",
+    "id": "3103c81b-d808-46c1-a907-9ff987edfbf4"
+  },
+  "createdAt": "2022-02-20T20:54:48.223Z",
+  "lastModifiedAt": "2022-02-20T20:54:48.223Z"
+}

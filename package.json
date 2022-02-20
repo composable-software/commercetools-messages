@@ -3,14 +3,28 @@
   "description": "Mock of commercetools messages",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peepoglad/commercetools-messages.git"
+  },
+  "bug": {
+    "url": "https://github.com/peepoglad/commercetools-messages/issues"
+  },
+  "homepage": "https://github.com/peepoglad/commercetools-messages",
+  "keywords": [
+    "commerctools",
+    "e-commerce",
+    "message",
+    "subscription"
+  ],
   "scripts": {
     "prepare": "husky install",
     "prebuild": "rimraf lib",
     "build": "tsc",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "release": "release-it"
   },
   "dependencies": {
     "@commercetools/platform-sdk": "^2.4.1",
@@ -26,6 +40,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^7.0.4",
+    "release-it": "^14.12.4",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.5"
   }

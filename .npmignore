@@ -1,0 +1,11 @@
+.husky
+.github
+src
+data
+coverage
+
+.release-it.json
+.gitignore
+.eslintrc.yml
+tsconfig.json
+yarn-error.log

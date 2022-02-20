@@ -4,17 +4,17 @@ This library mocks the Commercetools messages to ease testing of your typescript
 
 ## Installation
 For npm:
-* `npm i commercetools-message --save-dev`
+* `npm i @peepoglad/commercetools-messages --save-dev`
 
 For yarn:
-* `yarn add commercetools-message --dev`
+* `yarn add @peepoglad/commercetools-messages --dev`
 
 ## Usage
 To build payload, import the package into your file:
 
 ```typescript
 import { ProductAddedToCategoryMessage } from '@commercetools/platform-sdk'
-import { ProductAddedToCategory } from 'commercetools-message'
+import { ProductAddedToCategory } from '@peepoglad/commercetools-messages'
 
 const payload: ProductAddedToCategoryMessage = ProductAddedToCategory()
   .id('gigaId')

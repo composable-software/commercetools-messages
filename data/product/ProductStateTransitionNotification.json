@@ -1,26 +1,17 @@
 {
-  "notificationType": "Message",
+  "notificationType": "ResourceUpdated",
   "projectKey": "FooProject",
-  "id": "b2098c6e-f659-424e-a8e5-ee26991bd384",
-  "version": 1,
-  "sequenceNumber": 6,
   "resource": {
     "typeId": "product",
     "id": "0194423e-7cc8-46fb-b81d-af4882c85a83"
   },
-  "resourceVersion": 6,
   "resourceUserProvidedIdentifiers": {
     "key": "foo",
     "slug": {
       "en": "foo"
     }
   },
-  "type": "ProductStateTransition",
-  "state": {
-    "typeId": "state",
-    "id": "ae0612cc-1585-4fef-9124-b1b29cb70661"
-  },
-  "force": false,
-  "createdAt": "2022-02-19T15:29:21.213Z",
-  "lastModifiedAt": "2022-02-19T15:29:21.213Z"
+  "version": 6,
+  "oldVersion": 5,
+  "modifiedAt": "2022-02-19T15:29:21.213Z"
 }

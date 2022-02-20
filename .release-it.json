@@ -5,10 +5,10 @@
   },
   "github": {
     "release": true,
-    "autoGenerate": true
+    "autoGenerate": true,
+    "web": true
   },
   "npm": {
-    "publish": false,
-    "web": true
+    "publish": false
   }
 }

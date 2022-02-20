@@ -1,8 +1,8 @@
 .husky
 .github
+coverage
 src
 data
-coverage
 
 .release-it.json
 .gitignore
@@ -10,4 +10,4 @@ coverage
 tsconfig.json
 yarn-error.log
 
-!./lib/*
+!lib/*

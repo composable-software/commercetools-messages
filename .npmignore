@@ -10,4 +10,4 @@ coverage
 tsconfig.json
 yarn-error.log
 
-!lib/
+!./lib/*

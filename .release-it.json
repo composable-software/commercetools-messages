@@ -8,6 +8,7 @@
     "autoGenerate": true
   },
   "npm": {
-    "publish": false
+    "publish": false,
+    "web": true
   }
 }

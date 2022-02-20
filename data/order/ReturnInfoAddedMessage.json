@@ -1,0 +1,34 @@
+{
+  "notificationType": "Message",
+  "projectKey": "Foo",
+  "id": "75098576-8921-4292-a8db-2584816791d9",
+  "version": 1,
+  "sequenceNumber": 8,
+  "resource": {
+    "typeId": "order",
+    "id": "fd5e29b6-9e31-4cd4-b386-109669736e91"
+  },
+  "resourceVersion": 9,
+  "resourceUserProvidedIdentifiers": {
+    "orderNumber": "400"
+  },
+  "type": "ReturnInfoAdded",
+  "returnInfo": {
+    "items": [
+      {
+        "type": "LineItemReturnItem",
+        "id": "e91ecaa4-9769-4662-98cb-5fe7343c3d41",
+        "quantity": 1,
+        "lineItemId": "c8bfc109-d737-44aa-a4d6-d69322841b7b",
+        "shipmentState": "Returned",
+        "paymentState": "Initial",
+        "lastModifiedAt": "2022-02-20T20:13:13.641Z",
+        "createdAt": "2022-02-20T20:13:13.641Z"
+      }
+    ],
+    "returnTrackingId": "13",
+    "returnDate": "2022-02-25T00:00:00.000Z"
+  },
+  "createdAt": "2022-02-20T20:13:13.648Z",
+  "lastModifiedAt": "2022-02-20T20:13:13.648Z"
+}

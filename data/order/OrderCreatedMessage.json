@@ -1,0 +1,231 @@
+{
+  "notificationType": "Message",
+  "projectKey": "Foo",
+  "id": "d9f15ebd-df66-4916-a86a-5b43469bd535",
+  "version": 1,
+  "sequenceNumber": 1,
+  "resource": {
+    "typeId": "order",
+    "id": "342dfe6d-aec6-43f7-a4a1-2694ab927bfe"
+  },
+  "resourceVersion": 1,
+  "resourceUserProvidedIdentifiers": {},
+  "type": "OrderCreated",
+  "order": {
+    "type": "Order",
+    "id": "342dfe6d-aec6-43f7-a4a1-2694ab927bfe",
+    "version": 1,
+    "lastMessageSequenceNumber": 1,
+    "createdAt": "2022-02-20T20:37:20.610Z",
+    "lastModifiedAt": "2022-02-20T20:37:20.610Z",
+    "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+        "typeId": "user",
+        "id": "89b1c19e-f5de-434c-ae25-38226d8b14d8"
+      }
+    },
+    "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+        "typeId": "user",
+        "id": "89b1c19e-f5de-434c-ae25-38226d8b14d8"
+      }
+    },
+    "customerId": "2caf5584-7299-42ca-9785-0a605326bec3",
+    "customerEmail": "foo@xample.com",
+    "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "EUR",
+      "centAmount": 12600,
+      "fractionDigits": 2
+    },
+    "taxedPrice": {
+      "totalNet": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 10413,
+        "fractionDigits": 2
+      },
+      "totalGross": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 12600,
+        "fractionDigits": 2
+      },
+      "taxPortions": [
+        {
+          "rate": 0.21,
+          "amount": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 2187,
+            "fractionDigits": 2
+          },
+          "name": "21% incl."
+        }
+      ]
+    },
+    "orderState": "Open",
+    "syncInfo": [],
+    "returnInfo": [],
+    "shippingInfo": {
+      "shippingMethodName": "Standard EU",
+      "price": {
+        "type": "centPrecision",
+        "currencyCode": "EUR",
+        "centAmount": 300,
+        "fractionDigits": 2
+      },
+      "shippingRate": {
+        "price": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 300,
+          "fractionDigits": 2
+        },
+        "freeAbove": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 20000,
+          "fractionDigits": 2
+        },
+        "tiers": []
+      },
+      "taxRate": {
+        "name": "21% incl.",
+        "amount": 0.21,
+        "includedInPrice": true,
+        "country": "NL",
+        "id": "UwHw_ap_",
+        "subRates": []
+      },
+      "taxCategory": {
+        "typeId": "tax-category",
+        "id": "1fe58c0b-dd7c-4828-838e-f800466ab873"
+      },
+      "deliveries": [],
+      "shippingMethod": {
+        "typeId": "shipping-method",
+        "id": "3a3ace0b-e3bd-4c55-8e81-1cf558f17e41"
+      },
+      "taxedPrice": {
+        "totalNet": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 248,
+          "fractionDigits": 2
+        },
+        "totalGross": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 300,
+          "fractionDigits": 2
+        }
+      },
+      "shippingMethodState": "MatchesCart"
+    },
+    "taxMode": "Platform",
+    "inventoryMode": "None",
+    "taxRoundingMode": "HalfEven",
+    "taxCalculationMode": "LineItemLevel",
+    "origin": "Merchant",
+    "lineItems": [],
+    "customLineItems": [
+      {
+        "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 12300,
+          "fractionDigits": 2
+        },
+        "id": "5340dea3-f6b3-4f7c-b0a8-f56a37d12436",
+        "name": {
+          "en": "123"
+        },
+        "money": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 12300,
+          "fractionDigits": 2
+        },
+        "slug": "1",
+        "quantity": 1,
+        "discountedPricePerQuantity": [],
+        "taxCategory": {
+          "typeId": "tax-category",
+          "id": "1fe58c0b-dd7c-4828-838e-f800466ab873"
+        },
+        "taxRate": {
+          "name": "21% incl.",
+          "amount": 0.21,
+          "includedInPrice": true,
+          "country": "NL",
+          "id": "UwHw_ap_",
+          "subRates": []
+        },
+        "state": [
+          {
+            "quantity": 1,
+            "state": {
+              "typeId": "state",
+              "id": "91e74741-9b2e-48c1-b0da-a91a3ad2184f"
+            }
+          }
+        ],
+        "taxedPrice": {
+          "totalNet": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 10165,
+            "fractionDigits": 2
+          },
+          "totalGross": {
+            "type": "centPrecision",
+            "currencyCode": "EUR",
+            "centAmount": 12300,
+            "fractionDigits": 2
+          }
+        }
+      }
+    ],
+    "transactionFee": true,
+    "discountCodes": [],
+    "cart": {
+      "typeId": "cart",
+      "id": "0bf3ace7-60e7-4f27-b99e-75c9b9cf2d1f"
+    },
+    "shippingAddress": {
+      "id": "PMLZ4nJO",
+      "firstName": "John",
+      "lastName": "Doe",
+      "streetName": "Keizersgracht",
+      "streetNumber": "282",
+      "postalCode": "1012BE",
+      "city": "Amsterdam",
+      "country": "NL",
+      "phone": "+31204347721",
+      "email": "foo@example.com"
+    },
+    "billingAddress": {
+      "id": "PMLZ4nJO",
+      "firstName": "John",
+      "lastName": "Doe",
+      "streetName": "Keizersgracht",
+      "streetNumber": "282",
+      "postalCode": "1012BE",
+      "city": "Amsterdam",
+      "country": "NL",
+      "phone": "+31204347721",
+      "email": "foo@example.com"
+    },
+    "itemShippingAddresses": [],
+    "refusedGifts": [],
+    "store": {
+      "typeId": "store",
+      "key": "default"
+    }
+  },
+  "createdAt": "2022-02-20T20:37:20.632Z",
+  "lastModifiedAt": "2022-02-20T20:37:20.632Z"
+}

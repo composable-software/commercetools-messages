@@ -1,0 +1,14 @@
+{
+  "notificationType": "ResourceUpdated",
+  "projectKey": "Foo",
+  "resource": {
+    "typeId": "order",
+    "id": "8b8a912b-47ef-4cb9-9649-a2164429c37b"
+  },
+  "resourceUserProvidedIdentifiers": {
+    "orderNumber": "402"
+  },
+  "version": 2,
+  "oldVersion": 1,
+  "modifiedAt": "2022-02-20T20:54:48.223Z"
+}

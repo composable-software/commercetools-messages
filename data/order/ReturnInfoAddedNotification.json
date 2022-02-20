@@ -1,0 +1,14 @@
+{
+  "notificationType": "ResourceUpdated",
+  "projectKey": "kewk",
+  "resource": {
+    "typeId": "order",
+    "id": "fd5e29b6-9e31-4cd4-b386-109669736e91"
+  },
+  "resourceUserProvidedIdentifiers": {
+    "orderNumber": "400"
+  },
+  "version": 7,
+  "oldVersion": 6,
+  "modifiedAt": "2022-02-20T20:12:20.744Z"
+}

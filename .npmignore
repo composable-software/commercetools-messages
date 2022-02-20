@@ -9,3 +9,5 @@ coverage
 .eslintrc.yml
 tsconfig.json
 yarn-error.log
+
+!lib/

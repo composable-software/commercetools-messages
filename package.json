@@ -1,10 +1,10 @@
 {
   "name": "@peepoglad/commercetools-messages",
   "description": "Mock of commercetools messages",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/peepoglad/commercetools-messages.git"

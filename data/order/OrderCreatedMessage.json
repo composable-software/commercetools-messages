@@ -69,6 +69,8 @@
     "orderState": "Open",
     "syncInfo": [],
     "returnInfo": [],
+    "shippingMode": "Single",
+    "shipping": [],
     "shippingInfo": {
       "shippingMethodName": "Standard EU",
       "price": {
@@ -131,64 +133,7 @@
     "taxCalculationMode": "LineItemLevel",
     "origin": "Merchant",
     "lineItems": [],
-    "customLineItems": [
-      {
-        "totalPrice": {
-          "type": "centPrecision",
-          "currencyCode": "EUR",
-          "centAmount": 12300,
-          "fractionDigits": 2
-        },
-        "id": "5340dea3-f6b3-4f7c-b0a8-f56a37d12436",
-        "name": {
-          "en": "123"
-        },
-        "money": {
-          "type": "centPrecision",
-          "currencyCode": "EUR",
-          "centAmount": 12300,
-          "fractionDigits": 2
-        },
-        "slug": "1",
-        "quantity": 1,
-        "discountedPricePerQuantity": [],
-        "taxCategory": {
-          "typeId": "tax-category",
-          "id": "1fe58c0b-dd7c-4828-838e-f800466ab873"
-        },
-        "taxRate": {
-          "name": "21% incl.",
-          "amount": 0.21,
-          "includedInPrice": true,
-          "country": "NL",
-          "id": "UwHw_ap_",
-          "subRates": []
-        },
-        "state": [
-          {
-            "quantity": 1,
-            "state": {
-              "typeId": "state",
-              "id": "91e74741-9b2e-48c1-b0da-a91a3ad2184f"
-            }
-          }
-        ],
-        "taxedPrice": {
-          "totalNet": {
-            "type": "centPrecision",
-            "currencyCode": "EUR",
-            "centAmount": 10165,
-            "fractionDigits": 2
-          },
-          "totalGross": {
-            "type": "centPrecision",
-            "currencyCode": "EUR",
-            "centAmount": 12300,
-            "fractionDigits": 2
-          }
-        }
-      }
-    ],
+    "customLineItems": [],
     "transactionFee": true,
     "discountCodes": [],
     "cart": {

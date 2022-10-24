@@ -5,7 +5,7 @@ import {
   OrderPaymentStateChangedMessage,
   OrderShipmentStateChangedMessage,
   OrderStateChangedMessage,
-  OrderReturnInfoAddedMessage,
+  ReturnInfoAddedMessage,
   LineItemStateTransitionMessage,
 } from '@commercetools/platform-sdk'
 
@@ -22,5 +22,5 @@ export const OrderCreated = () => Builder<OrderCreatedMessage>(orderCreatedMessa
 export const OrderPaymentStateChanged = () => Builder<OrderPaymentStateChangedMessage>(orderPaymentStateChangedMessage as OrderPaymentStateChangedMessage)
 export const OrderShipmentStateChanged = () => Builder<OrderShipmentStateChangedMessage>(orderShipmentStateChangedMessage as OrderShipmentStateChangedMessage)
 export const OrderStateChanged = () => Builder<OrderStateChangedMessage>(orderStateChangedMessage as OrderStateChangedMessage)
-export const OrderReturnInfoAdded = () => Builder<OrderReturnInfoAddedMessage>(returnInfoAddedMessage as OrderReturnInfoAddedMessage)
+export const ReturnInfoAdded = () => Builder<ReturnInfoAddedMessage>(returnInfoAddedMessage as ReturnInfoAddedMessage)
 export const LineItemStateTransition = () => Builder<LineItemStateTransitionMessage>(lineItemStateTransitionMessage as LineItemStateTransitionMessage)

@@ -1,0 +1,72 @@
+{
+  "id": "35269f36-099d-4280-96fc-ea9c65769980",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T19:08:55.391Z",
+  "sequenceNumber": 1,
+  "resource": {
+      "typeId": "customer",
+      "id": "469630bf-c50c-4e69-a798-55a9b77f91c0"
+  },
+  "resourceVersion": 1,
+  "resourceUserProvidedIdentifiers": {
+      "key": "johnDoe",
+      "customerNumber": "2"
+  },
+  "type": "CustomerCreated",
+  "customer": {
+      "id": "469630bf-c50c-4e69-a798-55a9b77f91c0",
+      "version": 1,
+      "versionModifiedAt": "2022-10-25T19:08:55.391Z",
+      "lastMessageSequenceNumber": 1,
+      "createdAt": "2022-10-25T19:08:55.391Z",
+      "lastModifiedAt": "2022-10-25T19:08:55.391Z",
+      "lastModifiedBy": {
+          "clientId": "qPYSeQh10IWU95K9708esPK0",
+          "isPlatformClient": false
+      },
+      "createdBy": {
+          "clientId": "qPYSeQh10IWU95K9708esPK0",
+          "isPlatformClient": false
+      },
+      "customerNumber": "2",
+      "email": "john.doe@example.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "title": "Mr.",
+      "dateOfBirth": "1943-12-18",
+      "companyName": "Example Company",
+      "password": "****z/s=",
+      "addresses": [
+          {
+              "id": "PcYEVxtZ",
+              "title": "Mr.",
+              "firstName": "John",
+              "lastName": "Doe",
+              "streetName": "Second Street",
+              "streetNumber": "13",
+              "postalCode": "12345",
+              "city": "Example City",
+              "country": "NL",
+              "phone": "+31123456780",
+              "mobile": "+31123456781",
+              "email": "john.doe@example.com"
+          }
+      ],
+      "shippingAddressIds": [],
+      "billingAddressIds": [],
+      "isEmailVerified": true,
+      "key": "johnDoe",
+      "stores": [],
+      "authenticationMode": "Password"
+  },
+  "createdAt": "2022-10-25T19:08:55.391Z",
+  "lastModifiedAt": "2022-10-25T19:08:55.391Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

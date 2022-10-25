@@ -1,0 +1,46 @@
+{
+  "id": "adab32d5-57bf-4855-9260-441616c8c284",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T19:23:51.201Z",
+  "sequenceNumber": 2,
+  "resource": {
+      "typeId": "customer",
+      "id": "cd93e207-e583-4d56-9445-4c5c82e51d4c"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+      "key": "janeDoe",
+      "customerNumber": "1"
+  },
+  "type": "CustomerAddressRemoved",
+  "address": {
+      "id": "CzRFA2pR",
+      "title": "Head of factory",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "streetName": "Third Street",
+      "streetNumber": "34",
+      "postalCode": "12345",
+      "city": "Example City",
+      "country": "NL",
+      "phone": "+3112345678",
+      "mobile": "+3112345679",
+      "email": "jane.doe@example.com"
+  },
+  "createdAt": "2022-10-25T19:23:51.201Z",
+  "lastModifiedAt": "2022-10-25T19:23:51.201Z",
+  "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  },
+  "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  }
+}

@@ -1,4 +1,4 @@
-# Commercetools Massages
+# Commercetools Messages
 
 This library mocks the Commercetools messages to ease testing of your typescript codebases.
 

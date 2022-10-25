@@ -1,0 +1,36 @@
+{
+  "id": "a547e108-1163-4296-88a8-440d80da1ff6",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T19:22:30.960Z",
+  "sequenceNumber": 10,
+  "resource": {
+      "typeId": "customer",
+      "id": "469630bf-c50c-4e69-a798-55a9b77f91c0"
+  },
+  "resourceVersion": 13,
+  "resourceUserProvidedIdentifiers": {
+      "key": "johnDoe",
+      "customerNumber": "2"
+  },
+  "type": "CustomerGroupSet",
+  "customerGroup": {
+      "typeId": "customer-group",
+      "id": "c6a8514d-2393-47a8-a9af-70a07ac18492"
+  },
+  "createdAt": "2022-10-25T19:22:30.960Z",
+  "lastModifiedAt": "2022-10-25T19:22:30.960Z",
+  "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  },
+  "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  }
+}

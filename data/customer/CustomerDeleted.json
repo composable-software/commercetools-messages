@@ -1,0 +1,32 @@
+{
+  "id": "f9621c48-ac09-42b0-b55f-68ccd93bb529",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T19:05:14.311Z",
+  "sequenceNumber": 2,
+  "resource": {
+      "typeId": "customer",
+      "id": "59a833d3-f812-48b2-911a-398becb6cf19"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+      "key": "janeDoe",
+      "customerNumber": "1"
+  },
+  "type": "CustomerDeleted",
+  "createdAt": "2022-10-25T19:05:14.311Z",
+  "lastModifiedAt": "2022-10-25T19:05:14.311Z",
+  "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  },
+  "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  }
+}

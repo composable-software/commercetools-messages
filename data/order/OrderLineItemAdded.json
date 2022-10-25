@@ -1,0 +1,427 @@
+{
+  "id": "cad9fdd6-2349-478e-83bb-e184f1072020",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:06:58.388Z",
+  "sequenceNumber": 14,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 19,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderLineItemAdded",
+  "lineItem": {
+      "id": "140a29dc-0428-4f78-be42-0f2254215832",
+      "productId": "59d60d5a-c332-4000-9b12-44e1d05f9b1d",
+      "productKey": "72968",
+      "name": {
+          "en": "Bag ”Selma” medium Michael Kors grey",
+          "de": "Tasche „Selma” medium Michael Kors grau"
+      },
+      "productType": {
+          "typeId": "product-type",
+          "id": "53e36efa-949d-4cda-be81-86dd0426343e",
+          "version": 1
+      },
+      "variant": {
+          "id": 1,
+          "sku": "A0E200000001YMF",
+          "key": "A0E200000001YMF",
+          "prices": [
+              {
+                  "id": "7233f297-0f21-478e-9cdc-fa7ed1dd9ce1",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 36875,
+                      "fractionDigits": 2
+                  }
+              },
+              {
+                  "id": "fdfe6e6b-8bf9-4c19-9b62-66b31cb1c753",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 24180,
+                      "fractionDigits": 2
+                  },
+                  "customerGroup": {
+                      "typeId": "customer-group",
+                      "id": "06bbae89-f0d3-40d1-9e58-240c14de9b73"
+                  }
+              },
+              {
+                  "id": "eb1c1b50-e44a-4d74-97cf-bd2e5d9ff878",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "USD",
+                      "centAmount": 36875,
+                      "fractionDigits": 2
+                  },
+                  "country": "US"
+              },
+              {
+                  "id": "a609bdf1-e6c8-4db4-9477-d5881a35b278",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "USD",
+                      "centAmount": 24180,
+                      "fractionDigits": 2
+                  },
+                  "customerGroup": {
+                      "typeId": "customer-group",
+                      "id": "06bbae89-f0d3-40d1-9e58-240c14de9b73"
+                  }
+              },
+              {
+                  "id": "6f7df0cc-3741-4a9f-a095-9eaf389e5d13",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 29500,
+                      "fractionDigits": 2
+                  },
+                  "country": "DE"
+              },
+              {
+                  "id": "70325ac1-e99b-4236-b44d-6fb167515e86",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 29500,
+                      "fractionDigits": 2
+                  },
+                  "country": "IT"
+              },
+              {
+                  "id": "9b46bc70-eb9f-480a-86be-794bc145a81b",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 29500,
+                      "fractionDigits": 2
+                  },
+                  "country": "GB"
+              },
+              {
+                  "id": "07e0f198-ceb3-40f4-9145-3f1862afd399",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 27140,
+                      "fractionDigits": 2
+                  },
+                  "country": "DE",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "eea917c0-b39d-4b0e-b984-2cd8cb321272"
+                  }
+              },
+              {
+                  "id": "2b1065a4-bc8e-4122-a0a4-12948ff90262",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 36138,
+                      "fractionDigits": 2
+                  },
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "1fbbad54-41dd-4a00-8e7c-385870585951"
+                  }
+              },
+              {
+                  "id": "1160314b-ce56-4fcf-9cdd-6ad7ada44e17",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 29795,
+                      "fractionDigits": 2
+                  },
+                  "country": "DE",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "7cd3ee1d-e3fd-41d7-bb87-fe67f5bc934b"
+                  }
+              },
+              {
+                  "id": "25a4e112-ce2c-4aea-ac85-96b91c8616bb",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 32155,
+                      "fractionDigits": 2
+                  },
+                  "country": "DE",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "b77dd754-cfff-4b22-a443-9da32292e250"
+                  }
+              },
+              {
+                  "id": "ec033e3c-753a-4886-9db0-399a7eec6538",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "EUR",
+                      "centAmount": 28910,
+                      "fractionDigits": 2
+                  },
+                  "country": "DE",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "39fdedd7-aaa0-4a39-95bc-20a80943577b"
+                  }
+              },
+              {
+                  "id": "0ba4396e-8506-4015-8f2a-f3c4f97a9273",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "USD",
+                      "centAmount": 27140,
+                      "fractionDigits": 2
+                  },
+                  "country": "US",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "0f4dbeaa-4bcd-46c4-b967-9b017a04ef87"
+                  }
+              },
+              {
+                  "id": "413fe3d2-f05e-4391-978f-f5d5663d72b3",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "USD",
+                      "centAmount": 36138,
+                      "fractionDigits": 2
+                  },
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "fd0740f5-ad6f-49a8-bbad-9e90ea30b0ca"
+                  }
+              },
+              {
+                  "id": "26072446-b80d-464f-8b73-e0fcd72fff22",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "USD",
+                      "centAmount": 29795,
+                      "fractionDigits": 2
+                  },
+                  "country": "US",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "d55bfefa-b9d6-4975-9b4c-9165141e1ef1"
+                  }
+              },
+              {
+                  "id": "3dd7e9f9-3eb3-4760-8d5a-c8bacc591439",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "USD",
+                      "centAmount": 32155,
+                      "fractionDigits": 2
+                  },
+                  "country": "US",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "aadfffa0-979e-4718-b030-61cf32fa3353"
+                  }
+              },
+              {
+                  "id": "4be5aea1-c5c3-4e71-8079-cd507de10d02",
+                  "value": {
+                      "type": "centPrecision",
+                      "currencyCode": "USD",
+                      "centAmount": 28910,
+                      "fractionDigits": 2
+                  },
+                  "country": "US",
+                  "channel": {
+                      "typeId": "channel",
+                      "id": "a2a49e50-5a30-40ee-ab78-28bcf77106f9"
+                  }
+              }
+          ],
+          "images": [
+              {
+                  "url": "https://s3-eu-west-1.amazonaws.com/commercetools-maximilian/products/072968_1_medium.jpg",
+                  "dimensions": {
+                      "w": 0,
+                      "h": 0
+                  }
+              }
+          ],
+          "attributes": [
+              {
+                  "name": "articleNumberManufacturer",
+                  "value": "30T3SLMS2L 081 GREY"
+              },
+              {
+                  "name": "articleNumberMax",
+                  "value": "72968"
+              },
+              {
+                  "name": "matrixId",
+                  "value": "A0E200000001YMF"
+              },
+              {
+                  "name": "baseId",
+                  "value": "72968"
+              },
+              {
+                  "name": "designer",
+                  "value": {
+                      "key": "michaelkors",
+                      "label": "Michael Kors"
+                  }
+              },
+              {
+                  "name": "madeInItaly",
+                  "value": {
+                      "key": "no",
+                      "label": "no"
+                  }
+              },
+              {
+                  "name": "commonSize",
+                  "value": {
+                      "key": "oneSize",
+                      "label": "one Size"
+                  }
+              },
+              {
+                  "name": "size",
+                  "value": "one size"
+              },
+              {
+                  "name": "color",
+                  "value": {
+                      "key": "grey",
+                      "label": {
+                          "de": "grau",
+                          "en": "grey",
+                          "it": "grigio"
+                      }
+                  }
+              },
+              {
+                  "name": "colorFreeDefinition",
+                  "value": {
+                      "en": "grey",
+                      "de": "grau"
+                  }
+              },
+              {
+                  "name": "style",
+                  "value": {
+                      "key": "sporty",
+                      "label": "sporty"
+                  }
+              },
+              {
+                  "name": "gender",
+                  "value": {
+                      "key": "women",
+                      "label": "Damen"
+                  }
+              },
+              {
+                  "name": "season",
+                  "value": "s15"
+              }
+          ],
+          "assets": [],
+          "availability": {
+              "channels": {
+                  "eea917c0-b39d-4b0e-b984-2cd8cb321272": {
+                      "isOnStock": true,
+                      "availableQuantity": 8,
+                      "version": 1,
+                      "id": "e1494052-84bc-44ab-a66b-3e9629ba8496"
+                  }
+              }
+          }
+      },
+      "price": {
+          "id": "7233f297-0f21-478e-9cdc-fa7ed1dd9ce1",
+          "value": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 36875,
+              "fractionDigits": 2
+          }
+      },
+      "quantity": 1,
+      "discountedPricePerQuantity": [],
+      "supplyChannel": {
+          "typeId": "channel",
+          "id": "eea917c0-b39d-4b0e-b984-2cd8cb321272"
+      },
+      "distributionChannel": {
+          "typeId": "channel",
+          "id": "eea917c0-b39d-4b0e-b984-2cd8cb321272"
+      },
+      "taxRate": {
+          "name": "StandardExternalTaxRate",
+          "amount": 0.19,
+          "includedInPrice": false,
+          "country": "DE",
+          "state": "Bavaria",
+          "subRates": []
+      },
+      "perMethodTaxRate": [],
+      "addedAt": "2022-10-26T18:06:58.374Z",
+      "lastModifiedAt": "2022-10-26T18:06:58.374Z",
+      "state": [
+          {
+              "quantity": 1,
+              "state": {
+                  "typeId": "state",
+                  "id": "13106256-3836-4fd3-bfe0-eda2ca0fec37"
+              }
+          }
+      ],
+      "priceMode": "Platform",
+      "lineItemMode": "Standard",
+      "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 36875,
+          "fractionDigits": 2
+      },
+      "taxedPrice": {
+          "totalNet": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 36875,
+              "fractionDigits": 2
+          },
+          "totalGross": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 43881,
+              "fractionDigits": 2
+          },
+          "totalTax": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 7006,
+              "fractionDigits": 2
+          }
+      },
+      "taxedPricePortions": []
+  },
+  "addedQuantity": 1,
+  "createdAt": "2022-10-26T18:06:58.388Z",
+  "lastModifiedAt": "2022-10-26T18:06:58.388Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "e92e6c76-211a-423c-b53d-c9e92740a97d",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T20:12:43.335Z",
+  "sequenceNumber": 2,
+  "resource": {
+      "typeId": "order",
+      "id": "7c3bd929-7fd2-4715-b986-d554a8782e46"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "100000001"
+  },
+  "type": "CustomLineItemStateTransition",
+  "customLineItemId": "43f274fe-e682-48ee-8c6b-ba3925c08e21",
+  "transitionDate": "2022-10-25T20:12:43.330Z",
+  "quantity": 1,
+  "fromState": {
+      "typeId": "state",
+      "id": "13106256-3836-4fd3-bfe0-eda2ca0fec37"
+  },
+  "toState": {
+      "typeId": "state",
+      "id": "4583e058-99a9-4758-80c6-c8d65b8cbd7d"
+  },
+  "createdAt": "2022-10-25T20:12:43.335Z",
+  "lastModifiedAt": "2022-10-25T20:12:43.335Z",
+  "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  },
+  "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  }
+}

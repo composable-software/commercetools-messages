@@ -1,0 +1,99 @@
+{
+  "id": "51884480-8793-488d-9c78-7fcb941bf639",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T16:36:39.137Z",
+  "sequenceNumber": 3,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 4,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderEditApplied",
+  "edit": {
+      "id": "b1d875f7-294f-4a19-bf26-2c298158873e",
+      "version": 2,
+      "versionModifiedAt": "2022-10-26T16:36:39.148Z",
+      "createdAt": "2022-10-26T16:36:23.444Z",
+      "lastModifiedAt": "2022-10-26T16:36:39.148Z",
+      "lastModifiedBy": {
+          "clientId": "qPYSeQh10IWU95K9708esPK0",
+          "isPlatformClient": false
+      },
+      "createdBy": {
+          "clientId": "qPYSeQh10IWU95K9708esPK0",
+          "isPlatformClient": false
+      },
+      "resource": {
+          "typeId": "order",
+          "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+      },
+      "key": "order-edit-key-2",
+      "stagedActions": [
+          {
+              "action": "setCustomerGroup",
+              "customerGroup": {
+                  "typeId": "customer-group",
+                  "id": "7bb6fd8a-611f-46f6-8a11-09c3c2699c29"
+              }
+          }
+      ],
+      "result": {
+          "type": "Applied",
+          "appliedAt": "2022-10-26T16:36:39.137Z",
+          "excerptBeforeEdit": {
+              "totalPrice": {
+                  "type": "centPrecision",
+                  "currencyCode": "EUR",
+                  "centAmount": 76125,
+                  "fractionDigits": 2
+              },
+              "version": 1
+          },
+          "excerptAfterEdit": {
+              "totalPrice": {
+                  "type": "centPrecision",
+                  "currencyCode": "EUR",
+                  "centAmount": 76125,
+                  "fractionDigits": 2
+              },
+              "version": 4
+          }
+      },
+      "comment": "sample-comment"
+  },
+  "result": {
+      "type": "Applied",
+      "appliedAt": "2022-10-26T16:36:39.137Z",
+      "excerptBeforeEdit": {
+          "totalPrice": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 76125,
+              "fractionDigits": 2
+          },
+          "version": 1
+      },
+      "excerptAfterEdit": {
+          "totalPrice": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 76125,
+              "fractionDigits": 2
+          },
+          "version": 4
+      }
+  },
+  "createdAt": "2022-10-26T16:36:39.137Z",
+  "lastModifiedAt": "2022-10-26T16:36:39.137Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

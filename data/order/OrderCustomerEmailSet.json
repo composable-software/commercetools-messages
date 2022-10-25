@@ -1,0 +1,24 @@
+{
+  "id": "428e3c2c-4089-4f73-93c6-6628c02ebed0",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T16:20:09.889Z",
+  "sequenceNumber": 14,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 14,
+  "type": "OrderCustomerEmailSet",
+  "email": "email@example.com",
+  "oldEmail": "foo@xample.com",
+  "createdAt": "2022-10-26T16:20:09.889Z",
+  "lastModifiedAt": "2022-10-26T16:20:09.889Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

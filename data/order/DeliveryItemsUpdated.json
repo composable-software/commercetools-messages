@@ -1,0 +1,35 @@
+{
+  "id": "ea19de08-64f6-4085-a228-a436de81f4bc",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T15:45:45.706Z",
+  "sequenceNumber": 3,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 3,
+  "type": "DeliveryItemsUpdated",
+  "deliveryId": "746d68a0-013d-41a0-a6b4-7d2a530f06ba",
+  "items": [
+      {
+          "id": "417615e4-da58-45c3-87bb-0b4fbf3a4c12",
+          "quantity": 2
+      }
+  ],
+  "oldItems": [
+      {
+          "id": "417615e4-da58-45c3-87bb-0b4fbf3a4c12",
+          "quantity": 1
+      }
+  ],
+  "createdAt": "2022-10-26T15:45:45.706Z",
+  "lastModifiedAt": "2022-10-26T15:45:45.706Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

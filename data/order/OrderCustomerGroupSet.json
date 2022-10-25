@@ -1,0 +1,29 @@
+{
+  "id": "d25526e1-d257-49ad-b304-83c5b3655682",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T16:36:39.137Z",
+  "sequenceNumber": 2,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderCustomerGroupSet",
+  "customerGroup": {
+      "typeId": "customer-group",
+      "id": "7bb6fd8a-611f-46f6-8a11-09c3c2699c29"
+  },
+  "createdAt": "2022-10-26T16:36:39.137Z",
+  "lastModifiedAt": "2022-10-26T16:36:39.137Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

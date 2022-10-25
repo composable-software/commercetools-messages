@@ -1,0 +1,31 @@
+{
+  "id": "4df1df74-5f33-446a-b932-831bd92e7f1c",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T15:58:40.189Z",
+  "sequenceNumber": 7,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 7,
+  "type": "ParcelTrackingDataUpdated",
+  "deliveryId": "746d68a0-013d-41a0-a6b4-7d2a530f06ba",
+  "parcelId": "6320fdb1-4287-4260-ad73-4c3af16bf1a6",
+  "trackingData": {
+      "trackingId": "ASDWFV23ASD",
+      "carrier": "TNT",
+      "provider": "providerName",
+      "providerTransaction": "transactionId",
+      "isReturn": false
+  },
+  "createdAt": "2022-10-26T15:58:40.189Z",
+  "lastModifiedAt": "2022-10-26T15:58:40.189Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

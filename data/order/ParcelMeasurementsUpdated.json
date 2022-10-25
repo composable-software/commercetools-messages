@@ -1,0 +1,28 @@
+{
+  "id": "f1f62059-434f-4417-84e3-33da62b5b467",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T16:00:58.328Z",
+  "sequenceNumber": 8,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 8,
+  "type": "ParcelMeasurementsUpdated",
+  "deliveryId": "746d68a0-013d-41a0-a6b4-7d2a530f06ba",
+  "parcelId": "6320fdb1-4287-4260-ad73-4c3af16bf1a6",
+  "measurements": {
+      "heightInMillimeter": 11,
+      "lengthInMillimeter": 11
+  },
+  "createdAt": "2022-10-26T16:00:58.328Z",
+  "lastModifiedAt": "2022-10-26T16:00:58.328Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

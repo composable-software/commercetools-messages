@@ -1,0 +1,49 @@
+{
+  "id": "345a7d1a-c58d-4834-b178-6f7d2510afed",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:23:56.183Z",
+  "sequenceNumber": 22,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 30,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderShippingInfoSet",
+  "shippingInfo": {
+      "shippingMethodName": "myCustomShippingMethod",
+      "price": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 4200,
+          "fractionDigits": 2
+      },
+      "shippingRate": {
+          "price": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 4200,
+              "fractionDigits": 2
+          },
+          "tiers": []
+      },
+      "taxCategory": {
+          "typeId": "tax-category",
+          "id": "c496fcf5-4803-4ddb-80b0-0cac678c4d11"
+      },
+      "deliveries": [],
+      "shippingMethodState": "MatchesCart"
+  },
+  "createdAt": "2022-10-26T18:23:56.183Z",
+  "lastModifiedAt": "2022-10-26T18:23:56.183Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "51bc2d48-4ea6-413d-a2cf-f71030fdaf39",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T19:17:39.230Z",
+  "sequenceNumber": 4,
+  "resource": {
+      "typeId": "customer",
+      "id": "469630bf-c50c-4e69-a798-55a9b77f91c0"
+  },
+  "resourceVersion": 7,
+  "resourceUserProvidedIdentifiers": {
+      "key": "johnDoe",
+      "customerNumber": "2"
+  },
+  "type": "CustomerEmailVerified",
+  "createdAt": "2022-10-25T19:17:39.230Z",
+  "lastModifiedAt": "2022-10-25T19:17:39.230Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

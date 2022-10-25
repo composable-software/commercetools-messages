@@ -1,0 +1,33 @@
+{
+  "id": "5f06e24c-1e70-4840-adae-b390404426fb",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T19:15:55.969Z",
+  "sequenceNumber": 3,
+  "resource": {
+      "typeId": "customer",
+      "id": "469630bf-c50c-4e69-a798-55a9b77f91c0"
+  },
+  "resourceVersion": 4,
+  "resourceUserProvidedIdentifiers": {
+      "key": "johnDoe",
+      "customerNumber": "2"
+  },
+  "type": "CustomerEmailChanged",
+  "email": "john.doee@example.com",
+  "createdAt": "2022-10-25T19:15:55.969Z",
+  "lastModifiedAt": "2022-10-25T19:15:55.969Z",
+  "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  },
+  "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  }
+}

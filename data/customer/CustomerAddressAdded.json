@@ -1,0 +1,40 @@
+{
+  "id": "554a22b1-d696-4693-ad7f-9e10b0d23480",
+  "version": 1,
+  "versionModifiedAt": "2022-10-25T19:26:38.244Z",
+  "sequenceNumber": 3,
+  "resource": {
+      "typeId": "customer",
+      "id": "cd93e207-e583-4d56-9445-4c5c82e51d4c"
+  },
+  "resourceVersion": 3,
+  "resourceUserProvidedIdentifiers": {
+      "key": "janeDoe",
+      "customerNumber": "1"
+  },
+  "type": "CustomerAddressAdded",
+  "address": {
+      "id": "BwmDhrGD",
+      "title": "Head of factory",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "streetName": "Third Street",
+      "streetNumber": "34",
+      "postalCode": "12345",
+      "city": "Example City",
+      "country": "NL",
+      "phone": "+3112345678",
+      "mobile": "+3112345679",
+      "email": "jane.doe@example.com"
+  },
+  "createdAt": "2022-10-25T19:26:38.244Z",
+  "lastModifiedAt": "2022-10-25T19:26:38.244Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

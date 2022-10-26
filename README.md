@@ -2,6 +2,12 @@
 
 This library mocks the Commercetools messages to ease testing of your typescript codebases.
 
+## Supported resources
+* order
+* customer
+* product
+* category
+
 ## Installation
 For npm:
 * `npm i @peepoglad/commercetools-messages --save-dev`

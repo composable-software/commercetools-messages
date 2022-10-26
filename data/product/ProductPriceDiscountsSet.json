@@ -1,0 +1,48 @@
+{
+  "id": "58f84cf8-442a-48c1-bf96-3a7a2281f6a4",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T19:22:05.023Z",
+  "sequenceNumber": 2,
+  "resource": {
+      "typeId": "product",
+      "id": "647283f7-6cf9-44cc-ad51-53c10fbd8f2e"
+  },
+  "resourceVersion": 2,
+  "resourceUserProvidedIdentifiers": {
+      "key": "82612",
+      "slug": {
+          "en": "gum-bag-medium-BS1900-black",
+          "de": "gum-tasche-medium-BS1900-schwarz"
+      }
+  },
+  "type": "ProductPriceDiscountsSet",
+  "updatedPrices": [
+      {
+          "variantId": 1,
+          "variantKey": "A0E2000000027DV",
+          "sku": "A0E2000000027DV",
+          "priceId": "5a8e9468-69ea-4368-9d24-c947885ed6f5",
+          "discounted": {
+              "value": {
+                  "type": "centPrecision",
+                  "currencyCode": "EUR",
+                  "centAmount": 10687,
+                  "fractionDigits": 2
+              },
+              "discount": {
+                  "typeId": "product-discount",
+                  "id": "28aaf547-d332-4243-8dd0-49b4ce3f81d1"
+              }
+          },
+          "staged": true
+      }
+  ],
+  "createdAt": "2022-10-26T19:22:05.023Z",
+  "lastModifiedAt": "2022-10-26T19:22:05.023Z",
+  "lastModifiedBy": {
+      "isPlatformClient": true
+  },
+  "createdBy": {
+      "isPlatformClient": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6969341d-02a0-42f3-8c06-89cafcbd7aa5",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:19:04.747Z",
+  "sequenceNumber": 20,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 28,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderLineItemDistributionChannelSet",
+  "lineItemId": "e0597ee5-e364-4052-837d-b86ce2d8b48a",
+  "distributionChannel": {
+      "typeId": "channel",
+      "id": "eea917c0-b39d-4b0e-b984-2cd8cb321272"
+  },
+  "createdAt": "2022-10-26T18:19:04.747Z",
+  "lastModifiedAt": "2022-10-26T18:19:04.747Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

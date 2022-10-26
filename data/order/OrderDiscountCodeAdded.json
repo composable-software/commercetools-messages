@@ -1,0 +1,29 @@
+{
+  "id": "073e3bab-6d07-4102-a6bd-9f914bdfbc6b",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:34:48.589Z",
+  "sequenceNumber": 26,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 35,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderDiscountCodeAdded",
+  "discountCode": {
+      "typeId": "discount-code",
+      "id": "b6e50926-d69f-46e5-92cb-a8d36b87dd5b"
+  },
+  "createdAt": "2022-10-26T18:34:48.589Z",
+  "lastModifiedAt": "2022-10-26T18:34:48.589Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

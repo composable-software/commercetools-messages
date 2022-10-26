@@ -1,0 +1,63 @@
+{
+  "id": "bdfe0d5c-1cec-4b50-91bc-7d93d980134f",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T17:30:59.192Z",
+  "sequenceNumber": 8,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 10,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderCustomLineItemRemoved",
+  "customLineItemId": "1e36f923-f0af-4c62-86f0-a7f7fb2a0a5a",
+  "customLineItem": {
+      "totalPrice": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 4200,
+          "fractionDigits": 2
+      },
+      "id": "1e36f923-f0af-4c62-86f0-a7f7fb2a0a5a",
+      "name": {
+          "en": "Name EN",
+          "de": "Name DE"
+      },
+      "money": {
+          "type": "centPrecision",
+          "currencyCode": "EUR",
+          "centAmount": 4200,
+          "fractionDigits": 2
+      },
+      "slug": "mySlug",
+      "quantity": 1,
+      "discountedPricePerQuantity": [],
+      "taxCategory": {
+          "typeId": "tax-category",
+          "id": "c496fcf5-4803-4ddb-80b0-0cac678c4d11"
+      },
+      "state": [
+          {
+              "quantity": 1,
+              "state": {
+                  "typeId": "state",
+                  "id": "13106256-3836-4fd3-bfe0-eda2ca0fec37"
+              }
+          }
+      ],
+      "perMethodTaxRate": [],
+      "priceMode": "Standard"
+  },
+  "createdAt": "2022-10-26T17:30:59.192Z",
+  "lastModifiedAt": "2022-10-26T17:30:59.192Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

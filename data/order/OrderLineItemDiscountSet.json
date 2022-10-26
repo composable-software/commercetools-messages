@@ -1,0 +1,60 @@
+{
+  "id": "aa251519-5301-4cc3-8b97-0ce71e32e0a5",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:34:48.589Z",
+  "sequenceNumber": 27,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 36,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderLineItemDiscountSet",
+  "lineItemId": "e0597ee5-e364-4052-837d-b86ce2d8b48a",
+  "discountedPricePerQuantity": [
+      {
+          "quantity": 1,
+          "discountedPrice": {
+              "value": {
+                  "type": "centPrecision",
+                  "currencyCode": "EUR",
+                  "centAmount": 15087,
+                  "fractionDigits": 2
+              },
+              "includedDiscounts": [
+                  {
+                      "discount": {
+                          "typeId": "cart-discount",
+                          "id": "34ba36fe-ae93-40e6-a9bf-951449c6dac8"
+                      },
+                      "discountedAmount": {
+                          "type": "centPrecision",
+                          "currencyCode": "EUR",
+                          "centAmount": 2663,
+                          "fractionDigits": 2
+                      }
+                  }
+              ]
+          }
+      }
+  ],
+  "totalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "EUR",
+      "centAmount": 15087,
+      "fractionDigits": 2
+  },
+  "taxedPricePortions": [],
+  "createdAt": "2022-10-26T18:34:48.589Z",
+  "lastModifiedAt": "2022-10-26T18:34:48.589Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

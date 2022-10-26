@@ -1,0 +1,51 @@
+{
+  "id": "653c8c71-f445-4b0d-8220-cdb976b7f422",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T16:38:53.643Z",
+  "sequenceNumber": 4,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 5,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderShippingAddressSet",
+  "address": {
+      "title": "My Address",
+      "salutation": "Mr.",
+      "firstName": "Example",
+      "lastName": "Person",
+      "streetName": "Examplary Street",
+      "streetNumber": "4711",
+      "additionalStreetInfo": "Backhouse",
+      "postalCode": "80933",
+      "city": "Exemplary City",
+      "region": "Exemplary Region",
+      "state": "Exemplary State",
+      "country": "DE",
+      "company": "My Company Name",
+      "department": "Sales",
+      "building": "Hightower 1",
+      "apartment": "247",
+      "pOBox": "2471",
+      "phone": "+49 89 12345678",
+      "mobile": "+49 171 2345678",
+      "email": "email@example.com",
+      "fax": "+49 89 12345679",
+      "additionalAddressInfo": "no additional Info",
+      "externalId": "Information not needed",
+      "key": "exampleKey"
+  },
+  "createdAt": "2022-10-26T16:38:53.643Z",
+  "lastModifiedAt": "2022-10-26T16:38:53.643Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

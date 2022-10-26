@@ -1,0 +1,27 @@
+{
+  "id": "1659c918-9ddb-4f64-ae1d-8ffa6f9fc02a",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T16:16:56.077Z",
+  "sequenceNumber": 13,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 13,
+  "type": "OrderStateTransition",
+  "state": {
+      "typeId": "state",
+      "id": "e5f8ab8a-296d-47c7-abf7-06ce55060c2f"
+  },
+  "force": false,
+  "createdAt": "2022-10-26T16:16:56.077Z",
+  "lastModifiedAt": "2022-10-26T16:16:56.077Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

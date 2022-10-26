@@ -1,0 +1,33 @@
+{
+  "id": "f2ce6233-ad1a-4b1d-bbd1-2999dfa961a5",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:53:11.088Z",
+  "sequenceNumber": 42,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 58,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderStoreSet",
+  "store": {
+      "typeId": "store",
+      "key": "europe"
+  },
+  "oldStore": {
+      "typeId": "store",
+      "key": "default"
+  },
+  "createdAt": "2022-10-26T18:53:11.088Z",
+  "lastModifiedAt": "2022-10-26T18:53:11.088Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

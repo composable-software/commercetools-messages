@@ -1,0 +1,32 @@
+{
+  "id": "39374f07-bb29-4ded-9d21-5b594861c6c7",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:29:07.484Z",
+  "sequenceNumber": 24,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 33,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderShippingRateInputSet",
+  "shippingRateInput": {
+      "type": "Classification",
+      "key": "shippingRateString",
+      "label": {
+          "en-GB": "shippingRateString"
+      }
+  },
+  "createdAt": "2022-10-26T18:29:07.484Z",
+  "lastModifiedAt": "2022-10-26T18:29:07.484Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

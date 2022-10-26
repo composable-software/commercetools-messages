@@ -1,0 +1,43 @@
+{
+  "id": "b4888dc3-4efc-46ab-afff-1d94fabb3187",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T18:10:59.061Z",
+  "sequenceNumber": 18,
+  "resource": {
+      "typeId": "order",
+      "id": "1ae901af-0aa4-455e-a523-05b503e64ebb"
+  },
+  "resourceVersion": 25,
+  "resourceUserProvidedIdentifiers": {
+      "orderNumber": "389"
+  },
+  "type": "OrderLineItemRemoved",
+  "lineItemId": "9acd14ec-94c2-4e19-a939-a4ae24b80d57",
+  "removedQuantity": 2,
+  "newQuantity": 0,
+  "newState": [
+      {
+          "quantity": 0,
+          "state": {
+              "typeId": "state",
+              "id": "13106256-3836-4fd3-bfe0-eda2ca0fec37"
+          }
+      }
+  ],
+  "newTotalPrice": {
+      "type": "centPrecision",
+      "currencyCode": "EUR",
+      "centAmount": 0,
+      "fractionDigits": 2
+  },
+  "createdAt": "2022-10-26T18:10:59.061Z",
+  "lastModifiedAt": "2022-10-26T18:10:59.061Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

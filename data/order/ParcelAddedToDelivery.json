@@ -1,0 +1,76 @@
+{
+  "id": "ebb528d5-307d-4635-a56a-a4018c13d994",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T15:51:43.831Z",
+  "sequenceNumber": 4,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 4,
+  "type": "ParcelAddedToDelivery",
+  "delivery": {
+      "id": "746d68a0-013d-41a0-a6b4-7d2a530f06ba",
+      "createdAt": "2022-10-26T15:43:30.099Z",
+      "items": [
+          {
+              "id": "417615e4-da58-45c3-87bb-0b4fbf3a4c12",
+              "quantity": 2
+          }
+      ],
+      "parcels": [
+          {
+              "id": "cd554608-3283-4301-acab-f07247fc76e1",
+              "createdAt": "2022-10-26T15:51:43.823Z",
+              "measurements": {
+                  "heightInMillimeter": 10,
+                  "lengthInMillimeter": 10,
+                  "widthInMillimeter": 10,
+                  "weightInGram": 10
+              },
+              "trackingData": {
+                  "trackingId": "AWDS65ASD",
+                  "carrier": "FedEx",
+                  "provider": "FedEx",
+                  "providerTransaction": "FedEx",
+                  "isReturn": false
+              },
+              "items": []
+          }
+      ]
+  },
+  "parcel": {
+      "id": "cd554608-3283-4301-acab-f07247fc76e1",
+      "createdAt": "2022-10-26T15:51:43.823Z",
+      "measurements": {
+          "heightInMillimeter": 10,
+          "lengthInMillimeter": 10,
+          "widthInMillimeter": 10,
+          "weightInGram": 10
+      },
+      "trackingData": {
+          "trackingId": "AWDS65ASD",
+          "carrier": "FedEx",
+          "provider": "FedEx",
+          "providerTransaction": "FedEx",
+          "isReturn": false
+      },
+      "items": []
+  },
+  "createdAt": "2022-10-26T15:51:43.831Z",
+  "lastModifiedAt": "2022-10-26T15:51:43.831Z",
+  "lastModifiedBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  },
+  "createdBy": {
+      "isPlatformClient": true,
+      "user": {
+          "typeId": "user",
+          "id": "e0ad1ec0-72e9-4ec3-85a6-4f1edcd43396"
+      }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "878a4f08-59ac-4e57-99e6-42c9a64b60f3",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T15:54:18.076Z",
+  "sequenceNumber": 5,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 5,
+  "type": "ParcelRemovedFromDelivery",
+  "deliveryId": "746d68a0-013d-41a0-a6b4-7d2a530f06ba",
+  "parcel": {
+      "id": "cd554608-3283-4301-acab-f07247fc76e1",
+      "createdAt": "2022-10-26T15:51:43.823Z",
+      "measurements": {
+          "heightInMillimeter": 10,
+          "lengthInMillimeter": 10,
+          "widthInMillimeter": 10,
+          "weightInGram": 10
+      },
+      "trackingData": {
+          "trackingId": "AWDS65ASD",
+          "carrier": "FedEx",
+          "provider": "FedEx",
+          "providerTransaction": "FedEx",
+          "isReturn": false
+      },
+      "items": []
+  },
+  "createdAt": "2022-10-26T15:54:18.076Z",
+  "lastModifiedAt": "2022-10-26T15:54:18.076Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

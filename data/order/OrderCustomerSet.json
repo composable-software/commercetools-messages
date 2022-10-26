@@ -1,0 +1,30 @@
+{
+  "id": "f6159691-b75e-4386-b1b1-fd4670d80f55",
+  "version": 1,
+  "versionModifiedAt": "2022-10-26T16:22:55.423Z",
+  "sequenceNumber": 15,
+  "resource": {
+      "typeId": "order",
+      "id": "0e68c34d-c369-45b7-9fa0-a8e19cc40a04"
+  },
+  "resourceVersion": 15,
+  "type": "OrderCustomerSet",
+  "customer": {
+      "typeId": "customer",
+      "id": "cd93e207-e583-4d56-9445-4c5c82e51d4c"
+  },
+  "oldCustomer": {
+      "typeId": "customer",
+      "id": "cd93e207-e583-4d56-9445-4c5c82e51d4c"
+  },
+  "createdAt": "2022-10-26T16:22:55.423Z",
+  "lastModifiedAt": "2022-10-26T16:22:55.423Z",
+  "lastModifiedBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  },
+  "createdBy": {
+      "clientId": "qPYSeQh10IWU95K9708esPK0",
+      "isPlatformClient": false
+  }
+}

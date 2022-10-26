@@ -12,20 +12,22 @@ import {
   ProductUnpublishedMessage,
   ProductVariantAddedMessage,
   ProductVariantDeletedMessage,
+  ProductPriceDiscountsSetMessage,
 } from '@commercetools/platform-sdk'
 
-import productAddedToCategoryMessage from '../data/product/ProductAddedToCategoryMessage.json'
-import productCreatedMessage from '../data/product/ProductCreatedMessage.json'
-import productDeletedMessage from '../data/product/ProductDeletedMessage.json'
-import productImageAddedMessage from '../data/product/ProductImageAddedMessage.json'
-import productPublishedMessage from '../data/product/ProductPublishedMessage.json'
-import productRemovedFromCategoryMessage from '../data/product/ProductRemovedFromCategoryMessage.json'
-import productRevertedStagedChangesMessage from '../data/product/ProductRevertedStagedChangesMessage.json'
-import productSlugChangedMessage from '../data/product/ProductSlugChangedMessage.json'
-import productStateTransitionMessage from '../data/product/ProductStateTransitionMessage.json'
-import productUnpublishedMessage from '../data/product/ProductUnpublishedMessage.json'
-import productVariantAddedMessage from '../data/product/ProductVariantAddedMessage.json'
-import productVariantDeletedMessage from '../data/product/ProductVariantDeletedMessage.json'
+import productAddedToCategoryMessage from '../data/product/ProductAddedToCategory.json'
+import productCreatedMessage from '../data/product/ProductCreated.json'
+import productDeletedMessage from '../data/product/ProductDeleted.json'
+import productImageAddedMessage from '../data/product/ProductImageAdded.json'
+import productPublishedMessage from '../data/product/ProductPublished.json'
+import productRemovedFromCategoryMessage from '../data/product/ProductRemovedFromCategory.json'
+import productRevertedStagedChangesMessage from '../data/product/ProductRevertedStagedChanges.json'
+import productSlugChangedMessage from '../data/product/ProductSlugChanged.json'
+import productStateTransitionMessage from '../data/product/ProductStateTransition.json'
+import productUnpublishedMessage from '../data/product/ProductUnpublished.json'
+import productVariantAddedMessage from '../data/product/ProductVariantAdded.json'
+import productVariantDeletedMessage from '../data/product/ProductVariantDeleted.json'
+import productPriceDiscountsSetMessage from '../data/product/ProductPriceDiscountsSet.json'
 
 export const ProductAddedToCategory = () => Builder<ProductAddedToCategoryMessage>(productAddedToCategoryMessage as ProductAddedToCategoryMessage)
 export const ProductCreated = () => Builder<ProductCreatedMessage>(productCreatedMessage as ProductCreatedMessage)
@@ -39,3 +41,4 @@ export const ProductStateTransition = () => Builder<ProductStateTransitionMessag
 export const ProductUnpublished = () => Builder<ProductUnpublishedMessage>(productUnpublishedMessage as ProductUnpublishedMessage)
 export const ProductVariantAdded = () => Builder<ProductVariantAddedMessage>(productVariantAddedMessage as ProductVariantAddedMessage)
 export const ProductVariantDeleted = () => Builder<ProductVariantDeletedMessage>(productVariantDeletedMessage as ProductVariantDeletedMessage)
+export const ProductPriceDiscountsSet = () => Builder<ProductPriceDiscountsSetMessage>(productPriceDiscountsSetMessage as ProductPriceDiscountsSetMessage)
